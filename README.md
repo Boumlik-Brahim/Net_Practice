@@ -47,9 +47,11 @@ The IPv4 address is a 32-bit number that uniquely identifies a network interface
 The bytes of the IPv4 address are further classified into two parts: the network part and the host part. The following figure shows the component parts of a typical IPv4 address, 192.168.1.34
 ![screenshot](./assets/ip.png)
     - IPV4 classes:
-    ![screenshot](./assets/ipclass.png)
+
+![screenshot](./assets/ipclass.png)
     - public and private IPV4:
-    ![screenshot](./assets/privateipaddr.png)
+
+![screenshot](./assets/privateipaddr.png)
 ## Netmasks:
 Netmasks (or subnet masks) are a shorthand for referring to ranges of consecutive IP addresses in the Internet Protocol. They used for defining networking rules in routers and firewalls.
 
