@@ -57,8 +57,10 @@ Netmasks (or subnet masks) are a shorthand for referring to ranges of consecutiv
 IPv4 addresses like 172.16.254.1 are really just decimal representations of four binary blocks.
 Each block is 8 bits, and represents numbers from 0-255. Because the blocks are groups of 8 bits, each block is known as an octet. And since there are four blocks of 8 bits, every IPv4 address is 32 bits.
     ![screenshot](./assets/ipaddrdecimal.png)
+
 To convert an IP address between its decimal and binary forms, you can use this chart:
     ![screenshot](./assets/binarytable.jpeg)
+
 Now lets say you want to convert the IP address 168.210.225.206. All you need to do is break the address into four blocks (168, 210, 225, and 206), and convert each into binary using the chart above.
 
 Remember that in binary, 1 is the equivalent to "on" and 0 is "off". So to convert the first block, 168, into binary, just start from the beginning of the chart and place a 1 or 0 in that cell until you get a sum of 168.
@@ -69,6 +71,7 @@ If you do this for the rest of the blocks, you'd get 10101000.11010010.11100001.
 ## Subnetting:
 Is a way to split up an IP address into smaller networks called subnets.
     ![screenshot](./assets/subnets.png)
+
 So generally, subnetting does two things: it gives us a way to break up networks into subnets, and allows devices to determine whether another device/IP address is on the same local network or not.
 ## Subnet Masks:
 Subnet masks function as a sort of filter for an IP address. With a subnet mask, devices can look at an IP address, and figure out which parts are the network bits and which are the host bits.
