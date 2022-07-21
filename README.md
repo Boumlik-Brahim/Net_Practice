@@ -4,7 +4,7 @@ A computer network comprises two or more computers that are connected—either b
 ## Network types:
 LAN (local area network),MAN (metropolitan area network),WAN (wide area network),WLAN (wireless local area network),
 PAN (personal area network),SAN (storage area network).
-## Network types:
+## Network architecture:
 Network architecture refers to a network’s structural and logical layout. It describes how the network devices are connected and the rules that govern data transfer between them.
 ## Types of Networking Architecture:
 ![screenshot](./assets/architecture.png)
