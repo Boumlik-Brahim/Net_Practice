@@ -82,4 +82,3 @@ Subnet masks function as a sort of filter for an IP address. With a subnet mask,
 ## CIDR Notation:
 CIDR stands for Classless Inter-Domain Routing, and is used in IPv4, and more recently, IPv6 routing.
     ![screenshot](./assets/cidr.png)
-
